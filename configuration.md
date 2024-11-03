@@ -26,8 +26,6 @@ Afin de bien organiser votre projet et suivre votre progression à travers les �
 
 1. **Créer et basculer sur une nouvelle branche :**
 
-   Pour chaque épisode, vous devez créer une nouvelle branche en utilisant la convention de nommage `episode_X` où `X` est le numéro de
-    l'épisode.
    ```sh
    git checkout -b episode_X
    ```
