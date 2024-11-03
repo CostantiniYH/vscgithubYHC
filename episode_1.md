@@ -72,7 +72,7 @@ Bienvenue, jeune dresseur ! Te voilà dans la Forêt des Bases HTML, la premièr
 - **Objectif** : Crée une liste ordonnée (ol).
 - **Description** : Les listes ordonnées sont définies avec la balise `<ol>` et chaque élément de la liste avec la balise `<li>`.
 - **XP** : 10 points
-- **Documentation** : [HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+- **Documentation** : [HTML Lists](https://www.w3school s.com/html/html_lists.asp)
 
 ---
 
