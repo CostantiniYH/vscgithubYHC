@@ -25,7 +25,6 @@ Afin de bien organiser votre projet et suivre votre progression à travers les �
 #### Gestion des Branches pour chaque Épisode
 
 1. **Créer et basculer sur une nouvelle branche :**
-
    ```sh
    git checkout -b episode_X
    ```
