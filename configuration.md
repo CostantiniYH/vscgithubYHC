@@ -1,5 +1,5 @@
 ### Notice de Configuration pour la Gestion des Branches Git
-
+tentative de remettre le truc en ordre
 Afin de bien organiser votre projet et suivre votre progression à travers les épisodes, nous allons utiliser Git pour gérer les différentes versions de votre code. Chaque épisode sera poussé sur une branche différente suivant la convention de nommage `episode_1`, `episode_2`, etc. Voici une notice détaillée pour configurer et gérer votre projet avec Git :
 
 #### Prérequis
