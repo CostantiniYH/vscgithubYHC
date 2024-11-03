@@ -3,34 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Créer un formulaire</title>
+    <title>Exercice 13 - Le formulaire</title>
 </head>
 <body>
+    <h3>Créer un formulaire</h3>
+    <p>Cela peut permettre de récolter des données, et par la suite, créer, peut-être une base de données. <br/>
+    Comme par exemple, le nom/prénom, l'age, la profession, ou encore les préférences de l'utilisateur.
+    </p>
+
+    <!--Première tentative-->
+    <h4>Remplissez les champs</h4>
     <form>
-        Nom                 <input type="text">
-    </form>
-    <form>
-        Prenom <input type="text">
-    </form>
-    <form>
-        Age <input type="checkbox">
-    </form> 
+        Nom <br/> <input type="text"> <br/>
+        Prenom <br/> <input type="text"> <br/>
+        Age <br/> <input type="text"> <br/>
+        Profession <br/> <input type="text"> <br/><br/>
+        Opérationnel  <input type="button">  <br/><br/>
+
+        <!--La phrase ci-dessous, c'est la petite fenêtre "Envoyé" qui permet d'envoyer,
+         justement, les données utilisateurs, à l'hébergeur.-->
+        <input type="submit">
+   </form>
+<!--Jusqu'ici-->
+
+<!--Deuxième tentative-->
+      <h4>Choisissez votre langue web préférée:</h4>
+
 <form>
-    Profession <input type="radio">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+  <br/><br/>
+  <input type="submit">
 </form>
+
+<h4>Quel véhicule possédez-vous ?</h4>
+
 <form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> J'ai un vélo</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> J'ai une voiture</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> j'ai un bateau</label>
+    <br/><br/>
     <input type="submit">
-</form>
-<form>
-    <input type="button">
-</form>
-<form>
-   <form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
   </form>
-</form>
+  <!--Tentative réussi.-->
+  
 </body>
 </html>
