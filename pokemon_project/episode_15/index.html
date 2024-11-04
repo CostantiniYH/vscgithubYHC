@@ -18,7 +18,7 @@
         <h3>Introduction</h3>
 
         <pre title="Introduction" style="color: brown;">Dans cet exercice, nous verrons des fonctionnalités liées au formulaire html.
-Certaines ont déjà été vues, d'autres sont à voire.
+Certaines ont déjà été vues, d'autres sont à voire (listes déroulantes).
             
         </pre>
         <h3>Les éléments html des formulaires</h3>
@@ -30,7 +30,7 @@ Certaines ont déjà été vues, d'autres sont à voire.
            <P style="color: chocolate;">
 Par exemple :
            </P>
-<p>Teste 1.</p>
+<h4 style="background-color: green;">Teste 1.</h4>
         <form title="Formulaire">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"> <br/><br/>
@@ -40,21 +40,115 @@ Par exemple :
 
             Name : <input  type="submit"> <br/><br/>
             Date : <input type="submit">
+                        
         </form>
 
         <br/>
         <hr/>
-        -
-        <p>Teste 2.</p>
 
-        <label for="cars">Choose a car:</label>
+        <h4 style="background-color: green;">Teste 2. Liste déroulante</h4>
+
+        <!--Première liste déroulante-->
+        <label for="cars">Choisis une voiture Américaine :</label>
+        <!--La taille (attribut size=""), détermine la hauteur du champs à séléctionné.-->
+            <select id="cars" name="cars" size="1">
+              <option value="Chrysler">Chrysler</option>
+              <option value="Dodge">Dodge</option>
+              <option value="Chevrolet">Chevrolet</option>
+              <option value="Jeep">Jeep</option>
+              <option value="Cadillac">Cadillac</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="Ford">Ford</option>
+            </select>
+        
+            <!--Deuxième liste déroulante--><br/><br/>
+        <label for="cars">Choisis une voiture Allemande :</label>
+        <!--L'attribut : multiple peut être rajouté-->
         <select id="cars" name="cars">
+            <option value="fiat" selected>Audi</option>
           <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="fiat">Fiat</option>
           <option value="audi">Audi</option>
+          <option value="Mercedes-Benz">Mercedes-Benz</option>
+          <option value="BMW">BMW</option>
+          <option value="Porsche">Porsche</option>
         </select>
 
+        <!--Troisème liste déroulante--><br/><br/>
+        <label for="cars">Choisis une voiture Anglaise :</label>
+        <select id="cars" name="cars">
+            <option value="Aston Martin">Aston-Martin</option>
+            <option value="Bentley">Bentley</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Land Rover">Land-Rover</option>
+            <option value="Lotus">Lotus</option>
+            <option value="McLaren">McLaren</option>
+            <option value="MG">MG</option>
+            <option value="Mini">Mini</option>
+            <option value="Morgan">Morgan</option>
+            <option value="Rolls-Royce">Rolls-Royce</option>
+        </select>
 
+        <!--Quatrième liste déroulante--> <br/><br/>
+<label for="cars">Choisis une voiture Française :</label>
+        <select id="cars" name="cars">
+            <option value="Citroën">Citroën</option>
+            <option value="Alpine">Alpine</option>
+            <option value="Peugeot">Peugeot</option>
+            <option value="Bugatti">Bugatti</option>
+            <option value="Renault">Renault</option>
+            <option value="DS">DS</option>
+        </select>
+        <hr/>
+
+            <!--Zone de texte--> <br/>
+            Ecrivez un commentaire :<br/><br/>
+            <textarea name="message" rows="10" cols="30">
+Le site est agréable, il y fait bon-vivre. Par ailleurs, la séléction des voitures est satisfaisante. 
+                </textarea><button style="margin-left: 40px;" type="button" onclick="alert('Bonjour Messieurs Dames !')">Cliquez ici.</button>
+
+<!--Regroper des données liées dans un formulaire--><br/><br/>
+<h4 style="background-color: yellow;">Regrouper des données liées à un formulaire</h4>
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Personalité :</legend>
+      <label for="fname">Prénom :</label><br>
+      <input type="text" id="fname" name="fname" value="Yaacov-Haï"><br>
+      <label for="lname">Nom :</label><br>
+      <input type="text" id="lname" name="lname" value="Costantini"><br><br>
+      <input type="submit" value="Envoyé">
+    </fieldset>
+  </form>
+  <br/>
+  <hr>
+<!--Spécifier une liste d'opition prédéfinies pour un élément "input"--><br/>
+<h4 style="background-color: orange;">Liste d'options prédéfinies</h4>
+Avec l'exemple des navigateurs webs<br/><br/>
+  <form action="/action_page.php">
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+  </form>
+  
+  <br/>
+  <hr/>
+  <!--L'élément output-->
+  <h4 style="background-color: red;">Fonctionnalité qu'on étudiera plus tard</h4>
+  <form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
     </body>
 </html>
