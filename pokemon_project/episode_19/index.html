@@ -1,1 +1,41 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Test CSS, html,JavaScript">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="CYH">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercice 19 - Les en-tête HTML</title>
+        <style>
+          /*Voir la feuille de style css*/
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "Voilà ça a changé !";
+            }
+        </script>
+        <base href="https://www.w3schools.com/" target="_blank">
+    </head>
+    <body>
+        <header>
+            <h2>Voici l'exercice 19</h2>
+            <p>On essaie, dans cet exercice de manipuler les différents éléments html qui se trouvent à l'interieur de l'en-tête.</p>
+            <div class="box">
+                <input type="range"> test de padding coloré
+            </div>
+        </header>
+        <section>
+            <p>L'élection présidentielle des Etats-Unis le 5 novembre, s'annoncent serrés !!</p>
+        </section>
+        <h3>Test JavaScript</h3>
+        <p id="demo">Le texte changera lorsqu'on appuiera sur le bouton 'tester'</p>
+        <button type="button" onclick="myFunction ()">tester JavaScript</button>
+        <footer>
+            <p>Pied de page</p>
+        </footer>
+        <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+        <a href="tags/tag_base.asp">HTML base Tag</a>
+    </body>
+</html>

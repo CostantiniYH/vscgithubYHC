@@ -1,1 +1,24 @@
 /* CSS for Episode 19 */
+body {
+    background-color: beige;
+    padding: 25px; color: black;
+    
+}
+h2 {color: brown; text-align: center;}
+p {color: black;}
+.box {
+    padding: 15px;
+    background-color: rgb(169, 193, 151);
+    border: 2px solid rgb(187, 73, 73);
+}
+header {
+    background-color: goldenrod;
+
+}
+section {
+    background-color: rgb(180, 221, 208);
+    padding-right: 40px;
+}
+footer {
+    background-color: white;
+}
