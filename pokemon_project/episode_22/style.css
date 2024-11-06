@@ -1,1 +1,38 @@
 /* CSS for Episode 22 */
+body {
+    background-color: beige;
+}
+header {
+    background-color: rgb(227, 207, 106);
+    border: 2px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown; 
+    text-align: center;
+    margin-top: 25px;
+    margin-inline: 300px;
+    /*font-size: */    
+}
+section > h1 {
+    text-align: center;
+}
+section {
+    background-color: rgb(162, 142, 142);
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid rgb(102, 44, 159);
+}
+article {
+    background-color: rgb(119, 151, 119);
+    padding: 10px;
+    border: 2px solid brown;
+}
+aside {
+    background-color: rgb(165, 165, 165);
+    width: 40%;
+
+}
+footer {
+    margin: 10px;
+    padding-inline: 10px;
+    border: 2px solid black;
+}
