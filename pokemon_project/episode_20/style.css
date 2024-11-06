@@ -1,1 +1,63 @@
 /* CSS for Episode 20 */
+.all-browsers {
+margin: 15px;
+padding: 5px;
+background-color: rgb(153, 128, 128);
+border: 2px solid black;
+}
+
+.all-browsers > h1, .browser {
+margin: 10px;
+padding: 5px;
+border: 2px solid black;
+background-color: rgb(121, 119, 119);
+
+}
+
+.browser {
+background: rgb(243, 245, 199);
+}
+
+.browser > h2, p {
+margin: 4px;
+font-size: 90%;
+}
+.pq {
+/*width: 40%;*/
+float: left;
+margin: 15px;
+padding: 10px;
+background-color: rgb(25, 141, 194);
+border: 4px solid rgb(236, 232, 6);
+}
+.pqh {
+margin: 10px;
+padding: 15px;
+background-color: rgb(149, 212, 93);
+border: 2px solid rgb(164, 31, 31);
+}
+aside {
+width: 25%;
+/*padding: 10px;*/
+margin: 10px;
+float: right;
+font-style: italic;
+background-color: lightgray;
+}
+.container {
+    display: flex;
+    gap: 1px;
+}
+.article {
+    flex: 1; /* Fait en sorte que les articles occupent l'espace disponible également */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+/*header {
+    width: 60%;
+    margin: 15px;
+    border: 2px solid;
+    float: right;
+}
+*/
