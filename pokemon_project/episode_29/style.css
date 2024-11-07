@@ -1,1 +1,60 @@
 /* CSS for Episode 29 */
+body {
+    background-color: rgb(207, 222, 228);
+    background-image: url(https://m.media-amazon.com/images/I/61TUb4AUhLL._AC_UF1000,1000_QL80_.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 45px;    
+    opacity: 0.9;
+}
+h1 {
+    text-align: center;
+}
+header {
+    background-color: rgb(189, 194, 54);
+    margin-inline: 300px;
+    margin-bottom: 25px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(152, 25, 25);
+    border-radius: 25px;
+}
+section {
+    background-color: rgb(101, 139, 101);
+    padding: 10px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(229, 187, 35);
+    border-radius: 25px;
+
+}
+article {
+    background-color: rgb(98, 193, 98);
+    padding: 10px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(221, 92, 5);
+    border-radius: 25px;
+}
+aside {
+    background-color: rgb(157, 155, 155);
+    opacity: 0.8;
+   
+}
+div {
+    border: 2px solid;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(193, 100, 100) ;   
+    /*opacity: 0.8;*/
+}
+footer {
+    
+}
+.compositeur {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
