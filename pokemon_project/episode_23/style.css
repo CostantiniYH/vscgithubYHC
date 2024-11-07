@@ -1,18 +1,30 @@
 /* CSS for Episode 23 */
 body {
-    background-color: rgb(199, 227, 237);
+    background-color: rgb(207, 222, 228);
+    margin: 25px;
 }
 header {
-
+    background-color: rgb(189, 194, 54);
+    margin-inline: 300px;
+    
 }
 section {
-
+    background-color: rgb(101, 139, 101);
+    padding: 10px;
+    border: 2px solid;
 }
 article {
-
+    background-color: rgb(98, 193, 98);
+    padding: 10px;
+    border: 2px solid;
+}
+aside {
+    background-color: rgb(157, 155, 155);
 }
 div {
-
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(193, 100, 100) /* Green background with 30% opacity */
 }
 footer {
     
