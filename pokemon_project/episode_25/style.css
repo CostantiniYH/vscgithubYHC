@@ -21,15 +21,18 @@ section {
     background-color: rgb(101, 139, 101);
     padding: 10px;
     border: 2px solid;
+    font-family: sans-serif;
 }
 article {
     background-color: rgb(98, 193, 98);
     padding: 10px;
     border: 2px solid;
+    font-family: 'Times New Roman', Times, serif;
 }
 aside {
     background-color: rgb(157, 155, 155);
     opacity: 0.8;
+    font-family: cursive;
    
 }
 div {
