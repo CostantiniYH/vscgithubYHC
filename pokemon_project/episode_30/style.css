@@ -1,1 +1,53 @@
 /* CSS for Episode 30 */
+body {
+    margin: -0px;
+    background-color: rgba(41, 39, 39, 0.676);
+   
+}
+section {    
+    background-color: beige;
+    border: solid white;
+    border-width: 3px;
+    padding: 10px;
+}
+#h1 {
+    background-color: rgb(163, 119, 83);
+    text-align: center;
+    border-radius: 20px;
+}
+#h2 {
+    background-color: rgb(161, 64, 64);    
+    font-size: px;
+    padding: 50px;
+    margin: -0px;
+    text-align: center;        
+    font-size: 50px;
+}
+article {
+    border: solid black;
+    width: 70%;
+    margin: 20px;
+}
+aside {
+    background-color: azure;
+    width: 25%;
+    font-style: italic;    
+    float: inline-end;
+    border-radius: 25px;
+    border-style: dashed;
+    padding: 10px;
+    text-align: justify;
+    opacity: 70%;
+}
+div {
+    background-color: rgb(208, 240, 170);
+    padding: 10px;
+    padding-top: 0px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+footer {
+    background-color: rgba(224, 88, 25, 0.2);
+    padding: 10px;
+}
