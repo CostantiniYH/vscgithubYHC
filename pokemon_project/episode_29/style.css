@@ -3,6 +3,7 @@ body {
     background-color: rgb(207, 222, 228);
     background-image: url(https://m.media-amazon.com/images/I/61TUb4AUhLL._AC_UF1000,1000_QL80_.jpg);
     background-size: 100% 100%;
+    background-image: rgb(255, 255, 255, 0.9);
     background-position: center;
     background-repeat: no-repeat;
     margin: 45px;    
@@ -15,16 +16,17 @@ header {
     background-color: rgb(189, 194, 54);
     margin-inline: 300px;
     margin-bottom: 25px;
-    border-style: groove;
-    border-width: 5px;
+    border-style: solid;
+    border-width: 3px;
     border-color: rgb(152, 25, 25);
     border-radius: 25px;
 }
 section {
     background-color: rgb(101, 139, 101);
+    margin-bottom: 10px;
     padding: 10px;
     border-style: groove;
-    border-width: 5px;
+    border-width: 4px;
     border-color: rgb(229, 187, 35);
     border-radius: 25px;
 
@@ -33,7 +35,7 @@ article {
     background-color: rgb(98, 193, 98);
     padding: 10px;
     border-style: groove;
-    border-width: 5px;
+    border-width: 3px;
     border-color: rgb(221, 92, 5);
     border-radius: 25px;
 }
@@ -42,19 +44,22 @@ aside {
     opacity: 0.8;
    
 }
-div {
-    border: 2px solid;
-    border-radius: 25px;
-    margin-top: 20px;
-    padding: 10px;
-    background: rgb(193, 100, 100) ;   
-    /*opacity: 0.8;*/
-}
 footer {
     
 }
-.compositeur {
-    color: black;
+.colonne {
+    background-color: rgb(179, 70, 70);
+    border-style: none;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
+}
+div {
+    border: 2px solid;
+    border-radius: 25px;    
+    padding: 10px;
+    background-color: rgb(123, 61, 61);
 }
