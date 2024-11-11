@@ -1,31 +1,36 @@
 /* CSS for Episode 32 */
+
+/* Syntaxe des pseudo-classes :
+
 selector:pseudo-class {
     property: value;
 }
+    */
+
 /* unvisited link */
 a:link {
-    color: #FF0000;
+    color: #36a7df;
   }
   
   /* visited link */
   a:visited {
-    color: #00FF00;
+    color: #00ff11;
   }
   
   /* mouse over link */
   a:hover {
-    color: #FF00FF;
+    color: #0f800d;
   }
   
   /* selected link */
   a:active {
-    color: #0000FF;
+    color: #484c4f;
   }
   a.highlight:hover {
-    color: #ff0000;
-  }
+    color: #b50a0a;
+  }*/
   div:hover {
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(70, 188, 206);
   }
   p {
     display: none;
@@ -44,7 +49,7 @@ a:link {
 
 
 
-  body {
+body {
     background-image: url(https://img.freepik.com/photos-premium/ville-fond-ciel-ville-arriere-plan_853645-9422.jpg);
     background-color: rgb(237, 234, 234);
     padding: 20px;
@@ -59,7 +64,7 @@ header {
     width: 50%;
     border-radius: 20px;
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
     text-align: center;
 }
 section {
@@ -68,17 +73,68 @@ section {
     padding: 20px;
     margin-top: 20px;
     background-color: rgb(198, 225, 216);
-    opacity: 0.8;
+    opacity: 0.8;    
+}
+#h2 {
+  margin: 10px;
+}
+.grille {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 article {
     padding: 10px;
     border: solid white;
     border-radius: 25px;
 }
-div {
+.divh {
     background-color: rgb(183, 240, 240);
     border: solid rgba(68, 112, 179, 0.685);
     border-radius: 25px;
     padding-inline: 20px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
+.divh> p {
+  font-size: large;
+  text-align: justify;
+}
+
+/*Les grilles CSS*/
+.grid-container {
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  
+  background-color: rgb(130, 59, 59);
+  border: solid;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 5px;
+}
+.grid-item {  
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  
+  display: none;
+}
+.grid-container:hover  .grid-item{
+  display: block;
+}
+.grid-item:hover {
+  background-color: #ff0000; 
+}
+#titrediv {
+  grid-column-start: 2;
+}
+#conteneur {
+  
+}
+/*.grid-container {
+  display: inline-grid;
+}*/
