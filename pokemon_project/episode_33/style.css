@@ -1,1 +1,146 @@
 /* CSS for Episode 33 */
+selector:pseudo-class {
+    property: value;
+  }
+      */
+  
+  /* unvisited link */
+  a:link {
+      color: #36a7df;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: #00ff11;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: #0f800d;
+    }
+    
+    /* selected link */
+    a:active {
+      color: #484c4f;
+    }
+    a.highlight:hover {
+      color: #b50a0a;
+    }*/
+    div:hover {
+      background-color: rgb(70, 188, 206);
+    }
+    p {
+      display: none;
+      padding: 20px;
+    }
+    
+    div:hover p {
+      display: block;
+    }
+    article:hover p {
+      display: block;
+    }
+      
+  body {
+      background-image: url(https://img.freepik.com/photos-premium/ville-fond-ciel-ville-arriere-plan_853645-9422.jpg);
+      background-color: rgb(237, 234, 234);
+      padding: 20px;
+    
+  }
+  header {
+      background-image: url(https://img.freepik.com/photos-premium/belle-nature-realiste-hd-8k-fond-ecran-stock-photographic-image_915071-14116.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border-radius: 20px;
+      padding: 10px;
+      
+      text-align: center;
+  }
+  section {
+      border: solid;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      background-color: rgb(198, 225, 216);
+      opacity: 0.8;    
+  }
+  #h2 {
+   
+  }
+  .grille {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  article {
+      padding: 10px;
+      border: solid white;
+      border-radius: 25px;
+  }
+  .divh {
+      background-color: rgb(183, 240, 240);
+      border: solid rgba(68, 112, 179, 0.685);
+      border-radius: 25px;
+      padding-inline: 20px;
+      opacity: 0.8;
+  }
+  .divh> p {
+    font-size: large;
+    text-align: justify;
+  }
+  
+  /*Les grilles CSS*/
+  .grid-container {
+    margin-top: 30px;
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    
+    background-color: rgb(130, 59, 59);
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 5px;
+  }
+  .grid-item {  
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+    display: none;
+  }
+  .grid-container:hover  .grid-item{
+    display: block;
+  }
+  .grid-item:hover {
+    background-color: #ff0000; 
+  }
+  #titrediv {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .flex-container {
+    display: flex;
+    background-color: rgb(85, 175, 93);
+  }
+  .flex-container:hover {
+    color: #5eff00;
+  }
+  
+  .flex-container > div {
+    background-color: #6b8478;
+    margin: 10px;
+    margin-inline: auto;    
+    padding: 20px;
+    font-size: 30px;
+  }
+  #h3 {
+    
+  }
