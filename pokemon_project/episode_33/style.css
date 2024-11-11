@@ -1,9 +1,4 @@
-/* CSS for Episode 33 */
-selector:pseudo-class {
-    property: value;
-  }
-      */
-  
+/* CSS for Episode 33 */  
   /* unvisited link */
   a:link {
       color: #36a7df;
@@ -29,7 +24,7 @@ selector:pseudo-class {
     div:hover {
       background-color: rgb(70, 188, 206);
     }
-    p {
+    .bullp {
       display: none;
       padding: 20px;
     }
@@ -43,9 +38,8 @@ selector:pseudo-class {
       
   body {
       background-image: url(https://img.freepik.com/photos-premium/ville-fond-ciel-ville-arriere-plan_853645-9422.jpg);
-      background-color: rgb(237, 234, 234);
-      padding: 20px;
-    
+      background-size: auto;
+      padding: 20px;    
   }
   header {
       background-image: url(https://img.freepik.com/photos-premium/belle-nature-realiste-hd-8k-fond-ecran-stock-photographic-image_915071-14116.jpg);
@@ -56,8 +50,7 @@ selector:pseudo-class {
       margin-right: auto;
       width: 50%;
       border-radius: 20px;
-      padding: 10px;
-      
+      padding: 10px;      
       text-align: center;
   }
   section {
@@ -68,9 +61,7 @@ selector:pseudo-class {
       background-color: rgb(198, 225, 216);
       opacity: 0.8;    
   }
-  #h2 {
-   
-  }
+
   .grille {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -141,6 +132,7 @@ selector:pseudo-class {
     padding: 20px;
     font-size: 30px;
   }
-  #h3 {
-    
+#footerp {
+    text-align: center;
+    font-weight: 700;
   }
