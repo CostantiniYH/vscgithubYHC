@@ -1,1 +1,49 @@
 /* CSS for Episode 36 */
+.flex {
+ 
+}
+.barre1 {
+    background-color: rgb(46, 117, 46);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }
+ 
+  .barre1> li {
+    font-size: x-large;
+    
+  }
+  .barre1> li> a {    
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }  
+  .barre1> li> a:hover {
+    background-color: rgb(4, 65, 4);
+}
+  .barre2 {    
+    list-style-type: none;
+    background-color: rgb(57, 56, 56);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.barre2> li {
+    float: left;
+    
+}
+.barre2> li> a {
+    display: block;
+    color: white;    
+    text-decoration: none;
+    font-size: large;
+    padding: 15px;
+}
+
+.barre2> li> a:hover {
+    background-color: black;
+}
+  
