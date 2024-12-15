@@ -1,1 +1,157 @@
 /* CSS for Episode 38 */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(37, 148, 246, 0.128);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    background: linear-gradient(145deg, green,rgb(203, 164, 104),green,black,green,black);  
+    background-size: 300% 300%;  
+    height: 20vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    animation: header 8s infinite;
+}
+@keyframes header {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 50% 0%;}
+}
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: bold ;
+}
+.link_1 a {
+    font-size: x-large;
+}
+
+.link_2 ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.link_2 a {
+    
+}
+
+.link_3 ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    padding-inline: 20px;
+    background-color: rgb(0, 116, 145);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px;
+    display: grid;    
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+
+.content_1 {
+    background-color: white;
+    border-radius: 10px;
+    padding-inline: 20px;
+    box-shadow: 0px 0px 5px 3px rgb(60, 60, 60);
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.container h2, h3 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.art {
+    color: rgb(0, 0, 0);
+}
+.content_2 {
+    background-color: white;
+    border-radius: 10px;   
+    box-shadow: 0px 0px 5px 3px rgb(60, 60, 60);
+    padding-inline: 20px;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+@media only screen and (max-width: 1000px) {
+     /* For mobile phones: */
+     body {
+        background-color: brown;
+     }
+    
+     .link_2 ul, .link_3 ul {
+        display: block;
+     }
+     .container {
+        display: block;
+        background-color: white;
+     }
+     .content_1 {
+        background-color: burlywood;
+    }
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: gray;    
+    padding-inline: 30px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: inherit; /* Utilise la couleur du texte environnant */
+    font-weight: inherit; /* Hérite du poids de police du parent */
+    font-style: inherit; 
+}
+.titlefooter {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.titlefooter ul {
+    list-style: none;
+}
+.foot_2 ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.foot_2 i {
+    font-size: xx-large;   
+}
+.foot_2:hover li a i {
+    background-color: black;
+    color: white;
+}
